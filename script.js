@@ -51,13 +51,13 @@ pointers.push(new pointerPrototype());
 const { gl, ext } = getWebGLContext(canvas);
 
 if (isMobile()) {
-    config.DYE_RESOLUTION = 512;
+    // config.DYE_RESOLUTION = 512;
 }
 if (!ext.supportLinearFiltering) {
-    config.DYE_RESOLUTION = 512;
-    config.SHADING = false;
-    config.BLOOM = false;
-    config.SUNRAYS = false;
+    // config.DYE_RESOLUTION = 512;
+    // config.SHADING = false;
+    // config.BLOOM = false;
+    // config.SUNRAYS = false;
 }
 
 // startGUI();
